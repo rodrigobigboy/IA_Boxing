@@ -1,0 +1,63 @@
+Attack:
+
+jab = J
+cross = C
+main hook face = MHF
+rear hook face = RHF
+main hook body = MHB
+rear hook body = RHB
+main uppercut = MU
+rear uppercut = RU
+liver attack = LA
+
+Defense:
+
+main face = MF
+rear face = RF
+main body = MB
+rear body = RB
+shell for uppercut = SU
+liver defense = LD
+
+
+H = HEALTH
+S = STAMINA
+
+Stamina usage for punches (_S):
+
+J_S
+C_S
+MHF_S, RHF_S, MHB_S, RHB_S
+MU_S, RU_S
+LA_S
+
+Stamina usage for defense (_SD):
+
+MF_SD, RF_SD, MB_SD, RB_SD
+SU_SD
+LD_SD
+
+Health damage for landed punches (_H):
+
+J_H
+C_H
+MHF_H, RHF_H, MHB_H, RHB_H
+MU_H, RU_H
+LA_H
+
+
+
+Health and stamina values are unique for each fighter.
+
+Speed affects probability of landing and defending a punch but also costs stamina.
+
+Power affects damage delt by punches but also costs stamina.
+
+After every round both fighters will recover some stamina and health
+depending on their attributes.
+
+If a fighter has his health reach 0/100 before the end of the round,
+the game will end and the result would be a K.O. for that fighter.
+
+If a fighter has his stamina reach 0/100 before the end of the round;
+the game will end and the result would be a T.K.O. for that fighter.
