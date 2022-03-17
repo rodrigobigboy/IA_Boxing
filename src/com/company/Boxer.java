@@ -39,7 +39,7 @@ public class Boxer {
         A = a;     //
         HH = hh;
 
-        //Make indivdjal variable for each of the current ones
+        //Make indivdual variable for each of the current ones
 
         /*
 
